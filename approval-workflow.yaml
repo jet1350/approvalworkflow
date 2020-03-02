@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: "AWS Step Functions Approval workflow task example. It determines the approval mode based on input and then sends an email with an HTTP URL for approval."
+Description: "AWS Step Functions automatic and manual Approval workflow. It determines the approval mode based on input and then automatically does approval or sends an email with an HTTP URL for approval."
 Parameters:
   Email:
     Type: String
